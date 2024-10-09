@@ -5,8 +5,18 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
+.corner-image {
+    position: absolute; /* Position the image absolutely within the topnav */
+    top: 10px; /* Adjust to position vertically */
+    right: 10px; /* Adjust to position horizontally */
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 .topnav {
+    position: relative;
     overflow: hidden;
     background-color: #2f065e;
 }
